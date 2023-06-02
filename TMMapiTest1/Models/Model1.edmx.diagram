@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f641da90ab4649ea806ea4f7a11ff213" Name="Diagram1" ZoomLevel="34">
+        <EntityTypeShape EntityType="TheMeetManagerDbModel.Chats" Width="1.5" PointX="3" PointY="5.125" />
+        <EntityTypeShape EntityType="TheMeetManagerDbModel.Friends" Width="1.5" PointX="3" PointY="8.125" />
+        <EntityTypeShape EntityType="TheMeetManagerDbModel.Meets" Width="1.5" PointX="3" PointY="1.25" />
+        <EntityTypeShape EntityType="TheMeetManagerDbModel.Messages" Width="1.5" PointX="5.25" PointY="5" />
+        <EntityTypeShape EntityType="TheMeetManagerDbModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="TheMeetManagerDbModel.Users" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="TheMeetManagerDbModel.UsersAndMeets" Width="1.5" PointX="5.25" PointY="2.25" />
+        <AssociationConnector Association="TheMeetManagerDbModel.FK_Chats_Users" />
+        <AssociationConnector Association="TheMeetManagerDbModel.FK_Messages_Chats" />
+        <AssociationConnector Association="TheMeetManagerDbModel.FK_Friends_Users" />
+        <AssociationConnector Association="TheMeetManagerDbModel.FK_Friends_Users1" />
+        <AssociationConnector Association="TheMeetManagerDbModel.FK_Meets_Users" />
+        <AssociationConnector Association="TheMeetManagerDbModel.FK_UsersAndMeets_Meets" />
+        <AssociationConnector Association="TheMeetManagerDbModel.FK_UsersAndMeets_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
